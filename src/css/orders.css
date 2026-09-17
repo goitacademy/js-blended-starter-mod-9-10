@@ -1,0 +1,30 @@
+.orders-section {
+  padding: 32px 0;
+}
+
+.orders-section h1 {
+  margin-bottom: 20px;
+}
+
+.orders {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.order-card {
+  display: grid;
+  gap: 10px;
+  padding: 20px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 8px 24px rgb(15 23 42 / 8%);
+}
+
+.order-card h2 {
+  font-size: 20px;
+}
+
+.order-card button {
+  margin-top: 6px;
+}
